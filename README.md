@@ -4,7 +4,9 @@ python版本: python3
 pip3 install Selenium
 
 目录的chromedriver是unix的, windows的需要下载到同个目录, 改一下login.py的chromedriver的路径就好啦 
-chromedriver的版本是https://chromedriver.storage.googleapis.com/101.0.4951.15/
+chromedriver的版本是101.0.4951.15, 下载后解压到跟*.py同个目录
+[https://chromedriver.storage.googleapis.com/101.0.4951.15/](https://chromedriver.storage.googleapis.com/index.html?path=101.0.4951.15/)
+
 
 python3 main_program.py
 输入用户名、密码、验证码,输入错误重新运行吧, 懒得改了
