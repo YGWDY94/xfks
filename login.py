@@ -6,7 +6,7 @@ def get_website(website):
     user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36'
     opt = webdriver.ChromeOptions()
     opt.add_argument('--user-agent=%s' % user_agent)
-    browser = webdriver.Chrome(executable_path=r"./chromedriver", options=opt)
+    browser = webdriver.Chrome(executable_path=r"./chromedriver", options=opt) #chromedriver路径
     browser.get(website)
     return browser
 
