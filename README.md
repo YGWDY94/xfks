@@ -1,4 +1,4 @@
-# xfks
+# 学法考试刷一下
 python版本: python3 
 
 pip3 install Selenium
